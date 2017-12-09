@@ -13,6 +13,7 @@ Score criteria.
  As you move from one level to another number of sections increases size of the selected section varies randomly from one level to another, point scored at a level is dependent on the chosen color section lesser the size of the section more will be the points scored.
  
  Screenshots
+ 
  ![alt tag](https://github.com/ukrrrish/ChooseYourColour/blob/master/images/home.png) ![alt tag](https://github.com/ukrrrish/ChooseYourColour/blob/master/images/ChooseColor.png)
  ![alt tag](https://github.com/ukrrrish/ChooseYourColour/blob/master/images/play.png)![alt tag](https://github.com/ukrrrish/ChooseYourColour/blob/master/images/scorecard.png)
  

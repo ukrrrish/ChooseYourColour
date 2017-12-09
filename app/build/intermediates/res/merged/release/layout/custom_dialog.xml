@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tabLayout"
+    android:background="#000000ff">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="900px"
+    android:padding="10dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:orientation="horizontal"
+    android:background="#FFFFFF"
+    android:weightSum="10"
+    >
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7.5"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+        <TextView
+            android:id="@+id/level_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet..."
+            android:textSize="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="#000000"
+            android:layout_marginTop="200px"
+            />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet..."
+        android:textSize="18dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:layout_marginTop="100px"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:gravity="center_vertical"
+
+            android:orientation="horizontal"
+            android:background="#FFFFFF"
+            >
+
+    <Button
+        android:id="@+id/dismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#7b1Fa2"
+        android:text="Fast Mode"
+        android:textColor="#FFFFFF"
+        />
+            <Button
+                android:id="@+id/dontcare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#388E3c"
+                android:text="Continue"
+                android:textColor="#FFFFFF"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+
+
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            >
+
+
+         <View
+         android:layout_width="10dp"
+             android:id="@+id/percentagebackground"
+         android:layout_height="600px"
+         android:layout_centerInParent="true"
+         android:background="#D1D1C8"></View>
+            <View
+                android:id="@+id/percentage"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_centerInParent="true"
+                android:layout_alignBottom="@id/percentagebackground"
+                android:background="#7b1Fa2"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/percentagebackground"
+                android:layout_above="@id/percentage"
+
+                android:text="\u27B7"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/dialog_percentile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/percentagebackground"
+                android:layout_above="@id/percentage"
+                android:text="99%"
+                android:textColor="#000000"/>
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+<!-- From: file:/C:/Users/Ud@y/AndroidStudioProjects/ChooseYourColour/app/src/main/res/layout/custom_dialog.xml -->

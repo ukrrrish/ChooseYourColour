@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center|center_horizontal|center_vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="#FFFFCC"
+
+    >
+
+
+<LinearLayout
+    android:id="@+id/marks"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:weightSum="4"
+    android:layout_centerVertical="true"
+    android:padding="15dp"
+    >
+    <TextView
+        android:id="@+id/serial_Number"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="Nan"
+        />
+    <TextView
+        android:id="@+id/score"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="Nan"
+        />
+    <TextView
+        android:id="@+id/percentile"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="Nan"
+        />
+    <TextView
+        android:id="@+id/consolidated_score"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="Nan"
+        />
+</LinearLayout>
+
+</RelativeLayout>

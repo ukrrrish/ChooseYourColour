@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center|center_horizontal|center_vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="#FFFFCC"
+    android:id="@+id/highscore_layout"
+    >
+
+<TextView
+    android:id="@+id/highscoreheadline"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:text="HighScores"
+    android:layout_centerHorizontal="true"
+    android:shadowColor="@android:color/darker_gray"
+    android:textColor="@android:color/black"
+    android:fontFamily="@android:string/fingerprint_icon_content_description"
+    android:textSize="38dp"
+    android:layout_marginTop="16dp"
+    />
+
+    <LinearLayout
+        android:layout_below="@+id/highscoreheadline"
+        android:layout_centerVertical="true"
+        android:id="@+id/marks"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:padding="15dp"
+        android:layout_marginTop="68dp"
+
+
+
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="S.No"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Score"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Percentile"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Consolidated Score"
+            android:textColor="@android:color/black"
+            />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listView123"
+        android:layout_below="@+id/marks"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFCC"
+        android:layout_centerVertical="true">
+    </ListView>
+</RelativeLayout>

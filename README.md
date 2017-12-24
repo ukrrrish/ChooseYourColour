@@ -14,6 +14,7 @@ Score criteria.
  
  Screenshots
  
- ![alt tag](https://github.com/ukrrrish/ChooseYourColour/blob/master/images/home.png) ![alt tag](https://github.com/ukrrrish/ChooseYourColour/blob/master/images/ChooseColor.png)
- ![alt tag](https://github.com/ukrrrish/ChooseYourColour/blob/master/images/play.png)![alt tag](https://github.com/ukrrrish/ChooseYourColour/blob/master/images/scorecard.png)
+ ![alt tag](https://github.com/ukrrrish/Around-You/blob/master/imgs/around_you.png) 
+ ![alt tag](https://github.com/ukrrrish/Around-You/blob/master/imgs/direction.png)
+ ![alt tag](https://github.com/ukrrrish/Around-You/blob/master/imgs/list.png)
  
